@@ -1,0 +1,104 @@
+/* src/styles/main.css */
+
+/* Body */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+  background-color: #1a202c;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #2d3748;
+}
+.navbar a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #2d3748;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* Tour cards */
+.tour-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: white;
+  text-align: center;
+}
+.tour-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.tour-card .btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #1a202c;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.tour-card .btn:hover {
+  background-color: #2d3748;
+}
+
+/* Loader */
+.loader {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom:0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+.modal-content {
+  background-color:white;
+  padding:2rem;
+  border-radius:8px;
+  max-width:500px;
+  width:90%;
+}
+.close-btn {
+  float:right;
+  background:none;
+  border:none;
+  font-size:1.2rem;
+  cursor:pointer;
+}
+ 
